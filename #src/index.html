@@ -6,14 +6,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <title>Wildlife</title>
 </head>
 
 <body>
-    @@include("_header.html")
-    <main class="main">
+    <div class="wrapper">
+        <main class="main">
 
-    </main>
+            <div class="header-survival">
+                <div class="content">
+                    <header class="header">
+                        <figure class="header__logo logo">
+                            <img class="logo__img" src="./img/logo.svg" alt="logo">
+                            <p class="logo__text">WILDLIFE</p>
+                        </figure>
+                        <nav class="header__nav nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a class="nav__link" href="#">Blog</a> </li>
+                                <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+                                <li class="nav__item"><a class="nav__link" href="#"><span class="visually-hidden">Search
+                                            button</span>
+                                        <img src="./img/find.svg" alt="find">
+                                    </a></li>
+                                <li class="nav__item"><button class="nav__button">Sign in</button></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <div class="survival-wrapper">
+                        <div class="survival-wrapper__survival survival">
+                            <h1 class="survival__head">Survival</h1>
+                            <p class="survival__text">What this means is that we exist to help protect our environment
+                                and
+                                do
+                                in numbers of ways. You can save the planet by
+                                donation.</p>
+                            <button class="survival__button">Donate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-wrapper">
+                <div class="content">
+                    <div class="aricle">
+                        <div class="article__head article-head">
+                            <h2 class="article-head__header">Latest articles</h2>
+                            <h3 class="article-head__subheader">Breaking news from the wild</h3>
+                        </div>
+                        <div class="article__image image">
+                            <ul class="image__list">
+                                <li class="image__item"><button class="image__button"> <img src="./img/prev_arrow.svg"
+                                            alt="previous"></button>
+                                </li>
+
+                                <li class="image__item"><a class="image__link" href="#"><img class="image__font"
+                                            src="./img/deer.jpg" alt="Deer image">
+                                        <div class="image__text">
+                                            <h4 class="image__header">Deer</h4>
+                                            <p class="image__subheader">Naturalist investigation</p>
+                                        </div>
+                                    </a></li>
+                                <li class="image__item"><a class="image__link" href="#"><img class="image__font"
+                                            src="./img/squirel.jpg" alt="Deer image">
+                                        <div class="image__text">
+                                            <h4 class="image__header">Squirrel</h4>
+                                            <p class="image__subheader">Kamikaze squirrels</p>
+                                        </div>
+                                    </a></li>
+                                <li class="image__item"><a class="image__link" href="#"><img class="image__font"
+                                            src="./img/bird.jpg" alt="Deer image">
+                                        <div class="image__text">
+                                            <h4 class="image__header">Bird</h4>
+                                            <p class="image__subheader">Birds Fight club</p>
+                                        </div>
+                                    </a></li>
+                                <li class="image__item"><button class="image__button"> <img src="./img/next_arrow.svg"
+                                            alt="previous"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="article__form form">
+                            <h3 class="form__head">
+                                Get notified about new amazing articles
+                            </h3>
+                            <form action="#" class="form__input">
+                                <input type="email" placeholder="Email" class="form__field">
+                                <button type="submit" class="form__button">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer-wrapper">
+            <div class="content">
+                <div class="footer">
+                    <figure class="footer__logo logo">
+                        <img class="logo__img" src="./img/logo.svg" alt="logo">
+                        <p class="logo__text">WILDLIFE</p>
+                    </figure>
+                    <nav class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#">Articles</a> </li>
+                            <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Learn more</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__social social">
+                        <ul class="social__list">
+                            <li class="social__item"><a href="#" class="social__link"><img class="social__image"
+                                        src="./img/facebook.svg" alt="facebook link">
+                                    <p class="visually-hidden">Facebook link</p>
+                                </a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img class="social__image"
+                                        src="./img/instagram.svg" alt="instagram link">
+                                    <p class="visually-hidden">Instagram link</p>
+                                </a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img class="social__image"
+                                        src="./img/pint.svg" alt="pinterest link">
+                                    <p class="visually-hidden">Pinterest link</p>
+                                </a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img class="social__image"
+                                        src="./img/telegram.svg" alt="telegram link">
+                                    <p class="visually-hidden">Telegram link</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
     <script src="js/script.min.js"></script>
 </body>
 
